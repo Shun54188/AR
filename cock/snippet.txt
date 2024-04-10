@@ -1,0 +1,14 @@
+<model-viewer src="scene (2).glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.06618766512377044m 0.27131248706571953m 0.08870279235505976m" data-normal="-0.19640154368100043m -0.18581087567070634m 0.9627568499482129m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">雨傘巴丹鸚鵡</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
